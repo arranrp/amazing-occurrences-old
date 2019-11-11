@@ -28,3 +28,14 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
     <button type="submit">Send</button>
   </p>
 </form>
+
+<script type="text/javascript">
+	$("#amazing-occurrences-mailchimp").submit(function(e) {
+	  e.preventDefault();
+
+	  var $form = $(this);
+	  $.post($form.attr("action"), $form.serialize()).then(function() {
+	    alert("Thank you!");
+	  });
+	});
+</script>
