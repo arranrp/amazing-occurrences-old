@@ -8,7 +8,7 @@ subtitle: Clone and deploy your own EleventyOne starter template.
 
 <a href="/thanks">Test link</a>
 
-<form name="amazing-occurrences-mailchimp" method="POST" data-netlify="true" action="/Sign-up2" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+<form name="amazing-occurrences-mailchimp" method="POST" data-netlify="true" action="//thanks" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
